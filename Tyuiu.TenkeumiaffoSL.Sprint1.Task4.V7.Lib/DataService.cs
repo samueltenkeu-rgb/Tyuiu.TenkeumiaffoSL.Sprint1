@@ -21,7 +21,7 @@ namespace Tyuiu.TenkeumiaffoSL.Sprint1.Task4.V7.Lib
             double denominator = Math.Pow(x - 3 * y, 2);
             double result = numerator / denominator;
 
-            return Math.Round(result, 3, MidpointRounding.ToEven);
+            return Math.Floor(result * 1000) / 1000;
         }
     }
 }
