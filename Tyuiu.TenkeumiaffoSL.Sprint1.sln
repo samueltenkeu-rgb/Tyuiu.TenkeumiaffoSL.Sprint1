@@ -55,7 +55,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.TenkeumiaffoSL.Sprint
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.TenkeumiaffoSL.Sprint1.Task6.V1.Lib", "Tyuiu.TenkeumiaffoSL.Sprint1.Task6.V1.Lib\Tyuiu.TenkeumiaffoSL.Sprint1.Task6.V1.Lib.csproj", "{9FDE8B2C-5A01-4707-97D8-A2C64697240C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.TenkeumiaffoSL.Sprint1.Task6.V1Test", "Tyuiu.TenkeumiaffoSL.Sprint1.Task6.V1Test\Tyuiu.TenkeumiaffoSL.Sprint1.Task6.V1Test.csproj", "{14F64700-4A4E-41BF-896B-1F96A5106B1C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.TenkeumiaffoSL.Sprint1.Task6.V1.Test", "Tyuiu.TenkeumiaffoSL.Sprint1.Task6.V1Test\Tyuiu.TenkeumiaffoSL.Sprint1.Task6.V1.Test.csproj", "{14F64700-4A4E-41BF-896B-1F96A5106B1C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task7", "Task7", "{AF9E6231-716F-44EB-90B8-EE50D7CB3712}"
 EndProject
