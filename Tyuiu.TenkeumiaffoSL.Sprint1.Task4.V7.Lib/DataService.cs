@@ -1,5 +1,6 @@
 ﻿using System;
 using tyuiu.cources.programming.interfaces.Sprint1;
+
 namespace Tyuiu.TenkeumiaffoSL.Sprint1.Task4.V7.Lib
 {
     public class DataService : ISprint1Task4V7
@@ -20,7 +21,7 @@ namespace Tyuiu.TenkeumiaffoSL.Sprint1.Task4.V7.Lib
             double denominator = Math.Pow(x - 3 * y, 2);
             double result = numerator / denominator;
 
-            return Math.Round(result, 3);
+            return Math.Round(result, 3, MidpointRounding.ToEven);
         }
     }
 }

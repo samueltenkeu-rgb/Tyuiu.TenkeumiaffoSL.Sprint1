@@ -1,4 +1,5 @@
 ﻿using Tyuiu.TenkeumiaffoSL.Sprint1.Task4.V7.Lib;
+
 namespace Tyuiu.TenkeumiaffoSL.Sprint1.Task4.V7.Test
 {
     [TestClass]
@@ -11,7 +12,9 @@ namespace Tyuiu.TenkeumiaffoSL.Sprint1.Task4.V7.Test
             double x = 4.0;
             double y = 1.0;
             var res = ds.Calculate(x, y);
-            Assert.AreEqual(3.000, res); // (1 + √4) / (4-3)² = (1+2)/1 = 3
+            Assert.AreEqual(3.000, res);
         }
+
+    
     }
 }
