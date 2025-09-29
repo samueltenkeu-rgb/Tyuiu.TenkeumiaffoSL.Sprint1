@@ -10,7 +10,7 @@ namespace Tyuiu.TenkeumiaffoSL.Sprint1.Task6.V1.Lib
         {
             if (string.IsNullOrEmpty(value))
             {
-                return "Строка пуста";
+                return "";
             }
 
             StringBuilder result = new StringBuilder();
@@ -20,7 +20,7 @@ namespace Tyuiu.TenkeumiaffoSL.Sprint1.Task6.V1.Lib
                 char symbol = value[i];
                 int code = (int)symbol;
 
-                result.Append($"'{symbol}' = {code}");
+                result.Append(code.ToString());
 
                 if (i < value.Length - 1)
                 {
